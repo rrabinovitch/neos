@@ -22,7 +22,7 @@ Please follow these instructions for further enlightenment.
 
 With your partner look through `start.rb` and `near_earth_objects.rb`
 
-- Discuss is this 'good' or 'bad' code? Why?
+- **Discuss is this 'good' or 'bad' code? Why?**
 * probably closer to bad than good... there's just a lot going on, which disrupts SRP
 * also just not very readable
 * `start.rb`
@@ -35,16 +35,16 @@ With your partner look through `start.rb` and `near_earth_objects.rb`
 
 With your Partner, identify the different responsibilities that exist in each file.
 
-- *Does this adhere to SRP?* no, as mentioned above the NEO class method could definitely make use of helper methods and the runner file also takes on a lot
+- **Does this adhere to SRP?** no, as mentioned above the NEO class method could definitely make use of helper methods and the runner file also takes on a lot
 
-- *How would you utilize encapsulation and abstraction to refactor this code?*
+- **How would you utilize encapsulation and abstraction to refactor this code?**
   * abstraction:
     * implementing helper methods in the NEO class would help abstract the code a bit
     * a formatting/formatter class could abstract some of the code out of the runner file
   * encapsulation:
     * having a hard time with this one because the concept of encapsulation is still not very clear to us, but we're thinking that use of private methods to access the API data could be useful?
 
-- *What tools/strategies could you utilize to make this code adhere to SRP?*
+- **What tools/strategies could you utilize to make this code adhere to SRP?**
   * see above
 ---
 
