@@ -23,12 +23,12 @@ Please follow these instructions for further enlightenment.
 With your partner look through `start.rb` and `near_earth_objects.rb`
 
 - **Discuss is this 'good' or 'bad' code? Why?**
-* probably closer to bad than good... there's just a lot going on, which disrupts SRP
-* also just not very readable
-* `start.rb`
-  * the input instructions could probably go in its own file / class, though if anything other than the main command to kick off the program were to be in the `start` file, this would probably be the only thing that'd be 'okay' to keep
-* `near_earth_objects.rb`
-  * `self.find_neos_by_date` is a really long method and could probably make use of helper methods
+  * probably closer to bad than good... there's just a lot going on, which disrupts SRP
+  * also just not very readable
+  * `start.rb`
+    * the input instructions could probably go in its own file / class, though if anything other than the main command to kick off the program were to be in the `start` file, this would probably be the only thing that'd be 'okay' to keep
+  * `near_earth_objects.rb`
+    * `self.find_neos_by_date` is a really long method and could probably make use of helper methods
 ---
 
 ### Identify the responsibilities (10 min)
